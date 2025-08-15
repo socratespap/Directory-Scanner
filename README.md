@@ -12,6 +12,7 @@ A high-performance directory scanner that finds, sorts, and previews the largest
 - **🎯 File Type Filtering**: Filter by Images, Videos, Archives, and Executables
 - **📈 Progress Tracking**: Real-time percentage-based progress bar
 - **👀 File Preview**: Built-in text file preview functionality
+- **🗑️ File Management**: Delete files and directories directly from the interface
 - **📤 Export Results**: Save scan results to JSON format
 - **🔄 Cross-Platform**: Works on Windows, Linux, and macOS
 - **📦 Standalone Executable**: Ready-to-use .exe file included
@@ -169,9 +170,9 @@ pip install PyQt6
 - Check directory permissions
 
 **Slow scanning performance**
-- Build the Rust backend for maximum speed
 - Reduce the max results limit
 - Scan smaller directory trees
+- Close other applications to free up system resources
 
 ### Performance Comparison
 
@@ -224,7 +225,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - [ ] Add directory size visualization
 - [ ] Create installer packages
 - [ ] Add network drive support
-- [ ] Implement file operations (delete, move)
+- [x] Implement file operations (delete files and directories)
 - [ ] Add file hash calculation
 - [ ] Implement search functionality
 
