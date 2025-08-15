@@ -1,0 +1,8 @@
+PyQt6>=6.6.0
+PyQt6-Qt6>=6.6.0
+PyQt6-sip>=13.6.0
+requests>=2.31.0
+Pillow>=10.0.0
+chardet>=5.2.0
+maturin>=1.4.0
+send2trash>=1.8.0
