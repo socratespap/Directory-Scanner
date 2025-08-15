@@ -76,7 +76,7 @@ python main.py
    - Leave unchecked to scan all file types
 
 4. **Configure Scan**
-   - Choose max results (100-10,000 files)
+   - Choose max results (100-10,000 files pr Unlimited files)
    - Click "Start Scan"
    - Watch the real-time progress bar
 
