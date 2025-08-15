@@ -198,7 +198,6 @@ benchmarks/
 *.sublime-workspace
 
 # Build outputs
-*.exe
 *.app
 *.dmg
 *.deb
